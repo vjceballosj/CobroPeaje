@@ -11,24 +11,28 @@ Para utilizar esta macro, puede hacerlo manual siguiendo estos pasos:
 2. Debe crear 4 hojas:
    "CobroPeaje":
    //Hoja que muestra el ticket que se genera y el botón que permite buscar un número de placa:
+   
    ![Sheet_CobroPeaje](https://github.com/vjceballosj/CobroPeaje/assets/108242764/3edad160-69be-48cf-b5cb-29b9eade3d86)
 
    "plates":
    //Hoja que muestra la BBDD de placas ya predeterminadas para saber la categría a cobrar:
+   
    ![Sheet_plates](https://github.com/vjceballosj/CobroPeaje/assets/108242764/e408741f-bb89-43a2-b38e-319777690cfd)
 
    "categories":
+   
    //Hoja que muestra el valor a cobrar por cada categoría, en este caso hay 7:
    ![Sheet_categories](https://github.com/vjceballosj/CobroPeaje/assets/108242764/67ad5c4e-ca76-4dae-bc56-b7f8deb46cde)
 
    "totales":
+   
    //Hoja que muestra el cobrado en peajes por día calendario:
     ![Sheet_totales](https://github.com/vjceballosj/CobroPeaje/assets/108242764/d0f2f970-76c7-4867-a94e-96e412d36e3b)
 
-3. Presiona Alt + F11 para abrir el Editor de Visual Basic.
-4. Haz clic con el botón derecho del ratón en el nombre de tu archivo en el panel de la izquierda
+4. Presiona Alt + F11 para abrir el Editor de Visual Basic.
+5. Haz clic con el botón derecho del ratón en el nombre de tu archivo en el panel de la izquierda
    y selecciona "Insertar" -> "Módulo". Se creará un nuevo módulo en tu archivo.
-5. Copia y pega el siguiente código de la macro en el módulo abierto:
+6. Copia y pega el siguiente código de la macro en el módulo abierto:
 //****************************************************************************************************************//
 Dim plateFound As Boolean ' Variable de control
 
